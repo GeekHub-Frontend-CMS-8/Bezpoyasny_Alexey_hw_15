@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    background-color: #dce2ed;
+}
+.wrapper {
+    width: 60%;
+    padding: 20px 30px;
+    margin: 0 auto;
+    background-color: white;
+}
+fieldset {
+    margin-bottom: 20px;
+}
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+.height li {
+    line-height: 2.5;
+}
+#about_forms, select, .email {
+    margin: 20px 0 20px 0;
+}
+select {
+    width: 150px;
+}
+
