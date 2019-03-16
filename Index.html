@@ -13,7 +13,7 @@
         <p>Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдут и вымышленные.</p>
     </header>
     <section>
-        <form action="#" name="aboute_me" method="post">
+        <form action="send_to_db.php" name="aboute_me" method="post">
             <fieldset>
                 <legend><b>Коротко о себе</b></legend>
                 <ul class="height">
@@ -61,16 +61,16 @@
                 <span><b>Что вы обычно делаете на выходных:</b></span>
                 <ul>
                     <li>
-                        <label><input type="checkbox" name="relaxation" value="sleep"> Сплю</label>
+                        <label><input type="checkbox" name="relaxation[]" value="sleep"> Сплю</label>
                     </li>
                     <li>
-                        <label><input type="checkbox" name="relaxation" value="walk"> Гуляю с друзьями</label>
+                        <label><input type="checkbox" name="relaxation[]" value="walk"> Гуляю с друзьями</label>
                     </li>
                     <li>
-                        <label><input type="checkbox" name="relaxation" value="fishing"> Хожу на рыбалку</label>
+                        <label><input type="checkbox" name="relaxation[]" value="fishing"> Хожу на рыбалку</label>
                     </li>
                     <li>
-                        <label><input type="checkbox" name="relaxation" value="games"> Играю в игры</label>
+                        <label><input type="checkbox" name="relaxation[]" value="games"> Играю в игры</label>
                     </li>
                 </ul>
                 <label for="about_forms"><b>Расказать о формах в книге, посвященной HTML:</b></label>
@@ -126,13 +126,13 @@
                 <span><i>Выберите категории</i></span>
                 <ul>
                     <li>
-                        <label><input type="checkbox" name="spam" value="equipment"> Оборудование</label>
+                        <label><input type="checkbox" name="spam[]" value="equipment"> Оборудование</label>
                     </li>
                     <li>
-                        <label><input type="checkbox" name="spam" value="dinner"> Как приготовить обеды</label>
+                        <label><input type="checkbox" name="spam[]" value="dinner"> Как приготовить обеды</label>
                     </li>
                     <li>
-                        <label><input type="checkbox" name="spam" value="million"> Заработай миллион за два дня!</label>
+                        <label><input type="checkbox" name="spam[]" value="million"> Заработай миллион за два дня!</label>
                     </li>
                 </ul>
                 <span><b>На сколько сложная задача:</b></span>
